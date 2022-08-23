@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- here we  have only text view so it will displaly 12 circle on the screen  as we have 12 exercise it acts like layout more than text view-->
+<!-- if we will create constraint or some other layout then it will display a single circle-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/exercise_display_numbers"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_margin="1dp"
+    android:background="@drawable/background_for_exericse"
+    android:gravity="center"
+    android:padding="3dp"
+    tools:text="1"
+    android:textColor="@color/black"
+    android:textSize="14sp"
+    android:textStyle="bold"
+
+    ></TextView>
+
